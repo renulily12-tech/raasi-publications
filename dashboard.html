@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Raasi Publications Admin Panel</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>📚 Raasi Publications</h1>
+
+    <p class="subtitle">Admin Dashboard</p>
+
+    <div class="cards">
+
+        <div class="card card1">
+            <h2 id="totalBooks">0</h2>
+            <p>Total Books</p>
+        </div>
+
+        <div class="card card2">
+            <h2 id="availableBooks">0</h2>
+            <p>Available</p>
+        </div>
+
+        <div class="card card3">
+            <h2 id="outBooks">0</h2>
+            <p>Out of Stock</p>
+        </div>
+
+        
+
+    </div>
+
+    <div class="buttons">
+
+        <button class="update-btn"
+        onclick="location.href='updateStock.html'">
+            🔄 Update Stock
+        </button>
+
+        <button class="logout-btn"
+        onclick="logout()">
+            🚪 Logout
+        </button>
+
+    </div>
+
+    <div class="table-box">
+
+        <h2>Recent Books</h2>
+
+        <table>
+
+            <tr>
+                <th>Book Name</th>
+                <th>Stock</th>
+            </tr>
+
+            <tbody id="recentBooks">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>

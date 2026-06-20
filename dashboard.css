@@ -1,0 +1,163 @@
+body{
+    margin:0;
+    font-family:'Segoe UI',sans-serif;
+    background:white;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    text-align:center;
+}
+
+h1{
+    color:#111827;
+    font-size:55px;
+    margin-top:40px;
+}
+
+.subtitle{
+    color:#6b7280;
+    font-size:20px;
+    margin-bottom:50px;
+}
+
+/* Cards */
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:180px;
+    padding:25px;
+    border-radius:20px;
+    background:white;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.card h2{
+    font-size:55px;
+    color:#1e3a8a;
+    margin:0;
+}
+
+.card p{
+    color:#6b7280;
+    font-size:18px;
+}
+
+/* Buttons */
+.buttons{
+    margin:45px 0;
+}
+
+button{
+    border:none;
+    padding:16px 35px;
+    font-size:18px;
+    border-radius:50px;
+    cursor:pointer;
+    transition:.3s;
+    margin:10px;
+}
+
+/* Update Stock */
+.update-btn{
+    background:#1e3a8a;
+    color:white;
+}
+
+.update-btn:hover{
+    background:#1d4ed8;
+}
+
+/* Logout */
+.logout-btn{
+    background:#1e3a8a;
+    color:white;
+}
+
+.logout-btn:hover{
+    background:#1d4ed8;
+}
+
+/* Table */
+.table-box{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.table-box h2{
+    color:#111827;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#1e3a8a;
+    color:white;
+    padding:15px;
+}
+
+td{
+    padding:15px;
+    border-bottom:1px solid #ddd;
+}
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:180px;
+    padding:25px;
+    border-radius:20px;
+    background:linear-gradient(135deg,#3e69b9,#024fa6);
+    color:white;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h2{
+    font-size:55px;
+    margin:0;
+    color:white;
+}
+
+.card p{
+    margin-top:10px;
+    font-size:18px;
+    color:white;
+}
+.update-btn{
+    background:#f49d3a;
+    color:white;
+}
+
+.update-btn:hover{
+    background:#2563eb;
+}
+
+.logout-btn{
+    background:#f49d3a;
+    color:white;
+}
+
+.logout-btn:hover{
+    background:#f59e0b;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Stock</title>
+    <link rel="stylesheet" href="updateStock.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>📦 Update Book Stock</h1>
+
+    <div class="main">
+
+        <!-- LEFT SIDE -->
+        <div class="left">
+
+            <input type="text"
+                   id="searchBook"
+                   placeholder="🔍 Search Book">
+
+            <div id="suggestions"></div>
+
+            <input type="number"
+                   id="soldQty"
+                   placeholder="Copies sold today">
+
+            <button onclick="updateStock()">
+                Update Stock
+            </button>
+
+        </div>
+
+
+        <!-- RIGHT SIDE -->
+        <div class="right">
+
+            <img id="bookImage">
+
+            <h2 id="bookName">
+                Select a Book
+            </h2>
+
+            <p id="author"></p>
+
+            <h3>
+                Current Stock :
+                <span id="currentStock">0</span>
+            </h3>
+
+            <h3>
+                New Stock :
+                <span id="newStock">0</span>
+            </h3>
+
+        </div>
+
+    </div>
+
+    <a href="dashboard.html">
+        ← Back to Dashboard
+    </a>
+
+</div>
+
+<script src="updateStock.js"></script>
+
+</body>
+</html>

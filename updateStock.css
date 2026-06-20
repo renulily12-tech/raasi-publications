@@ -1,0 +1,107 @@
+body{
+    margin:0;
+    font-family:Segoe UI,sans-serif;
+    background:#f5f7fb;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    text-align:center;
+}
+
+h1{
+    color:#111827;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+.main{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.left,.right{
+    background:white;
+    width:420px;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+#searchBook,
+#soldQty{
+    width:100%;
+    padding:18px;
+    margin-bottom:20px;
+    border:none;
+    outline:none;
+    border-radius:15px;
+    background:#f5f7fb;
+    font-size:18px;
+    box-sizing:border-box;
+}
+
+button{
+    width:100%;
+    padding:18px;
+    border:none;
+    border-radius:40px;
+    background:#0f2d6b;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#183d8f;
+}
+
+#suggestions{
+    text-align:left;
+    margin-bottom:20px;
+}
+
+.suggestion{
+    background:#f5f7fb;
+    padding:15px;
+    margin-bottom:8px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.suggestion:hover{
+    background:#dbeafe;
+}
+
+#bookImage{
+    width:180px;
+    height:250px;
+    object-fit:cover;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+#bookName{
+    color:#111827;
+}
+
+#author{
+    color:gray;
+}
+
+h3{
+    color:#0f2d6b;
+}
+
+a{
+    display:inline-block;
+    margin-top:40px;
+    text-decoration:none;
+    color:#0f2d6b;
+    font-size:18px;
+}
