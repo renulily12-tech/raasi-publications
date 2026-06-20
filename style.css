@@ -745,3 +745,47 @@ h1{
 .home-btn:active{
     color:white !important;
 }
+@media screen and (max-width:768px){
+
+  h1{
+    font-size:55px;
+    line-height:1.1;
+  }
+
+  .subtitle{
+    font-size:18px;
+  }
+
+  .search-box{
+    width:85%;
+    padding:15px;
+    font-size:18px;
+  }
+
+  nav{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    align-items:center;
+  }
+
+  .admin-btn{
+    width:80%;
+    padding:15px;
+    font-size:20px;
+    border-radius:40px;
+  }
+
+  .book-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    padding:20px;
+  }
+
+  .book-card img{
+    width:140px;
+    height:200px;
+  }
+
+}
