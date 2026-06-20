@@ -862,3 +862,58 @@ h1{
     }
 
 }
+@media (max-width:768px){
+
+    .books-container{
+        grid-template-columns: repeat(3,1fr);
+        gap: 8px;
+    }
+
+    .book-card{
+        padding: 8px;
+    }
+
+    .book-card img{
+        height: 120px;
+    }
+
+    .book-card h2{
+        font-size: 13px;
+    }
+
+    .book-card p{
+        font-size: 11px;
+    }
+
+}
+@media screen and (max-width:768px){
+
+    .nav-links{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:15px;       /* Space between Home, Books, Categories, Contact */
+        margin-top:25px;
+    }
+
+    .nav-links a{
+        font-size:18px;
+        font-weight:600;
+        text-decoration:none;
+        color:white;
+        margin:0;
+        padding:0;
+    }
+
+    .admin-btn{
+        width:80%;
+        margin-top:20px;
+    }
+
+}
+h1{
+    margin-bottom:15px;
+}
+.subtitle{
+    margin-bottom:20px;
+}
