@@ -107,3 +107,51 @@ h1{
     }
 
 }
+.book-card{
+    background: white;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.book-card img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.book-card h2{
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.book-card p{
+    font-size: 12px;
+    margin: 4px 0;
+}
+@media (max-width:768px){
+
+    .books-container{
+        grid-template-columns: repeat(3,1fr);
+        gap: 8px;
+    }
+
+    .book-card{
+        padding: 8px;
+    }
+
+    .book-card img{
+        height: 120px;
+    }
+
+    .book-card h2{
+        font-size: 13px;
+    }
+
+    .book-card p{
+        font-size: 11px;
+    }
+
+}
